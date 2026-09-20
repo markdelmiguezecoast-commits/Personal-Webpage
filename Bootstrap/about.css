@@ -1,0 +1,98 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about-container {
+    padding: 50px 20px 70px;
+}
+
+.about-row {
+    margin-bottom: 40px;
+}
+
+.about-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-summary {
+    font-size: 17px;
+    color: #374151;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.quick-facts {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-facts li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0 30px;
+    color: #1f2937;
+}
+
+.section-subtitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-badge {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.skills-note {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Expected Graduation section */
+.grad-row {
+    margin-bottom: 40px;
+}
+
+.grad-photo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.grad-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.grad-text {
+    font-size: 17px;
+    color: #374151;
+    line-height: 1.8;
+}

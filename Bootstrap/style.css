@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 20px;
+}
+
+.card {
+    width: 18rem;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background-color: #2563eb;
+    transition: 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.03);
+}
+
+/* New: the "Explore My Page" section */
+
+.section-title {
+    text-align: center;
+    margin: 40px 0 30px;
+    color: #1f2937;
+}
+
+.link-cards {
+    margin-bottom: 60px;
+}
+
+.link-card {
+    height: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.link-card h5 {
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.link-card p {
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
